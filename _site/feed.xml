@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-11T10:28:01-07:00</updated>
+  <updated>2023-08-11T10:57:38-07:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,81 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Mount Douglas 3D Modelling in ArcGIS Pro Global Scene Editor</title>
+    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="Mount Douglas 3D Modelling in ArcGIS Pro Global Scene Editor" />
+    <published>2023-08-11T10:51:00-07:00</published>
+  
+    <updated>2023-08-11T10:51:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/Pkols/</id>
+    <content src="http://localhost:4000/posts/Pkols/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="PORTFOLIO" />
+    
+    <category term="GIS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction:
+Creating a 3D digital elevation model (DEM) of a real-world location can provide valuable insights and visualizations for various purposes, from urban planning to environmental analysis. In this tutorial, we will walk you through the process of creating a 3D DEM of Mount Douglas in Saanich, British Columbia, Canada, using the ArcGIS Pro Global Scene Editor. This powerful tool allo...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Getting Started with Earth Engine</title>
+    <link href="http://localhost:4000/posts/EarthEngine/" rel="alternate" type="text/html" title="Getting Started with Earth Engine" />
+    <published>2023-08-11T10:51:00-07:00</published>
+  
+    <updated>2023-08-11T10:51:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/EarthEngine/</id>
+    <content src="http://localhost:4000/posts/EarthEngine/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="BLOGS" />
+    
+    <category term="TUTORIALS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+Google Earth Engine is a powerful platform that combines satellite imagery, geospatial data, and cloud computing to provide users with the ability to analyze and visualize Earth’s changing landscape. Whether you’re an environmental researcher, a conservationist, a developer, or simply someone fascinated by the world around you, having a Google Earth Engine account opens up a world...
+    </summary>
+  
+
+  </entry>
 
 </feed>
 
