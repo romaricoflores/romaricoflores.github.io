@@ -11,3 +11,6 @@ Links:
 
 Certifications:
 * [CompTIA Data+](https://www.credly.com/badges/db7221a5-10d0-4f4d-9334-340813a3b4d6)
+
+Online Courses:
+* 
