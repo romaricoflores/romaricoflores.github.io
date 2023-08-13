@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-13T06:56:23-07:00</updated>
+  <updated>2023-08-13T07:16:15-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="Mount Douglas 3D Modelling in ArcGIS Pro Global Scene Editor" />
     <published>2023-08-11T10:51:00-07:00</published>
   
-    <updated>2023-08-11T10:51:00-07:00</updated>
+    <updated>2023-08-13T07:10:47-07:00</updated>
   
     <id>http://localhost:4000/posts/Pkols/</id>
     <content src="http://localhost:4000/posts/Pkols/" />
@@ -49,9 +49,13 @@
 
 
       
+  
+  
+
+Mt Pkols by Roma Rico Flores
 
 Introduction:
-Creating a 3D digital elevation model (DEM) of a real-world location can provide valuable insights and visualizations for various purposes, from urban planning to environmental analysis. In this tutorial, we will walk you through the process of creating a 3D DEM of Mount Douglas in Saanich, British Columbia, Canada, using the ArcGIS Pro Global Scene Editor. This powerful tool al...
+Creating a 3D digital elevation model (DEM) of a real-world location can provide valuable insights and visualizations for various purposes, from urban planning to environmental analysis. In this tutorial, we will walk you through the process of creating a 3D DEM of Mount Douglas in Saanich, British Columbia, Canada, using the ArcGIS Pro Global...
     </summary>
   
 
@@ -187,7 +191,7 @@ Open up a new Goo...
     <link href="http://localhost:4000/posts/CoffeeBusiness/" rel="alternate" type="text/html" title="Coffee Business Dashboard Using Tableau" />
     <published>2023-05-26T10:51:00-07:00</published>
   
-    <updated>2023-08-13T06:39:07-07:00</updated>
+    <updated>2023-08-13T06:59:57-07:00</updated>
   
     <id>http://localhost:4000/posts/CoffeeBusiness/</id>
     <content src="http://localhost:4000/posts/CoffeeBusiness/" />
@@ -220,9 +224,6 @@ Open up a new Goo...
 
   Access it in Tableau Public Tableau Public.
 
-
-
-Business Dashboard
 
     </summary>
   
