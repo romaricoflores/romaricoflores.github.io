@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-13T06:38:07-07:00</updated>
+  <updated>2023-08-13T06:56:23-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -48,8 +48,10 @@
 
 
 
-      Introduction:
-Creating a 3D digital elevation model (DEM) of a real-world location can provide valuable insights and visualizations for various purposes, from urban planning to environmental analysis. In this tutorial, we will walk you through the process of creating a 3D DEM of Mount Douglas in Saanich, British Columbia, Canada, using the ArcGIS Pro Global Scene Editor. This powerful tool allo...
+      
+
+Introduction:
+Creating a 3D digital elevation model (DEM) of a real-world location can provide valuable insights and visualizations for various purposes, from urban planning to environmental analysis. In this tutorial, we will walk you through the process of creating a 3D DEM of Mount Douglas in Saanich, British Columbia, Canada, using the ArcGIS Pro Global Scene Editor. This powerful tool al...
     </summary>
   
 
@@ -99,7 +101,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     <link href="http://localhost:4000/posts/VanCrime/" rel="alternate" type="text/html" title="Vancouver Crime Analysis" />
     <published>2023-07-11T10:51:00-07:00</published>
   
-    <updated>2023-08-13T06:19:24-07:00</updated>
+    <updated>2023-08-13T06:44:17-07:00</updated>
   
     <id>http://localhost:4000/posts/VanCrime/</id>
     <content src="http://localhost:4000/posts/VanCrime/" />
@@ -185,7 +187,7 @@ Open up a new Goo...
     <link href="http://localhost:4000/posts/CoffeeBusiness/" rel="alternate" type="text/html" title="Coffee Business Dashboard Using Tableau" />
     <published>2023-05-26T10:51:00-07:00</published>
   
-    <updated>2023-08-13T06:19:24-07:00</updated>
+    <updated>2023-08-13T06:39:07-07:00</updated>
   
     <id>http://localhost:4000/posts/CoffeeBusiness/</id>
     <content src="http://localhost:4000/posts/CoffeeBusiness/" />
