@@ -11,6 +11,7 @@ Links:
 
 Certifications:
 * [CompTIA Data+](https://www.credly.com/badges/db7221a5-10d0-4f4d-9334-340813a3b4d6)
+* [Philippine Regulation Commission Licensed Electronics Engineer](https://www.prc.gov.ph/sites/default/files/EE1018-alpha.pdf)
 
 Online Courses:
 * 
