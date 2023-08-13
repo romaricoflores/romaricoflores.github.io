@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-13T06:17:15-07:00</updated>
+  <updated>2023-08-13T06:38:07-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -99,7 +99,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     <link href="http://localhost:4000/posts/VanCrime/" rel="alternate" type="text/html" title="Vancouver Crime Analysis" />
     <published>2023-07-11T10:51:00-07:00</published>
   
-    <updated>2023-08-13T04:43:26-07:00</updated>
+    <updated>2023-08-13T06:19:24-07:00</updated>
   
     <id>http://localhost:4000/posts/VanCrime/</id>
     <content src="http://localhost:4000/posts/VanCrime/" />
@@ -185,7 +185,7 @@ Open up a new Goo...
     <link href="http://localhost:4000/posts/CoffeeBusiness/" rel="alternate" type="text/html" title="Coffee Business Dashboard Using Tableau" />
     <published>2023-05-26T10:51:00-07:00</published>
   
-    <updated>2023-08-13T04:49:26-07:00</updated>
+    <updated>2023-08-13T06:19:24-07:00</updated>
   
     <id>http://localhost:4000/posts/CoffeeBusiness/</id>
     <content src="http://localhost:4000/posts/CoffeeBusiness/" />
@@ -213,12 +213,14 @@ Open up a new Goo...
 
 
 
-      Tableau Activity in Data Visualization Class, access data in Tableau Public.
+      Tableau Activity in Data Visualization Class.
 
 
-       
-    
+  Access it in Tableau Public Tableau Public.
 
+
+
+Business Dashboard
 
     </summary>
   
