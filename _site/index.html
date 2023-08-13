@@ -16,6 +16,8 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" 
   
+    data-mode="dark"
+  
 >
   <!-- The Head -->
 
@@ -47,7 +49,6 @@
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rico Flores" />
-<meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"GIS, Machine Learning, Spatial Data Science.","headline":"Rico Flores","name":"Rico Flores","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
@@ -110,151 +111,6 @@
   
 
   <!-- JavaScript -->
-
-  
-    <!-- Switch the mode between dark and light. -->
-
-<script type="text/javascript">
-  class ModeToggle {
-    static get MODE_KEY() {
-      return 'mode';
-    }
-    static get MODE_ATTR() {
-      return 'data-mode';
-    }
-    static get DARK_MODE() {
-      return 'dark';
-    }
-    static get LIGHT_MODE() {
-      return 'light';
-    }
-    static get ID() {
-      return 'mode-toggle';
-    }
-
-    constructor() {
-      if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
-      }
-
-      let self = this;
-
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addEventListener('change', () => {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
-
-          self.clearMode();
-        }
-
-        self.notify();
-      });
-    } /* constructor() */
-
-    get sysDarkPrefers() {
-      return window.matchMedia('(prefers-color-scheme: dark)');
-    }
-
-    get isSysDarkPrefer() {
-      return this.sysDarkPrefers.matches;
-    }
-
-    get isDarkMode() {
-      return this.mode === ModeToggle.DARK_MODE;
-    }
-
-    get isLightMode() {
-      return this.mode === ModeToggle.LIGHT_MODE;
-    }
-
-    get hasMode() {
-      return this.mode != null;
-    }
-
-    get mode() {
-      return sessionStorage.getItem(ModeToggle.MODE_KEY);
-    }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    setDark() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    /* Notify another plugins that the theme mode has changed */
-    notify() {
-      window.postMessage(
-        {
-          direction: ModeToggle.ID,
-          message: this.modeStatus
-        },
-        '*'
-      );
-    }
-
-    flipMode() {
-      if (this.hasMode) {
-        if (this.isSysDarkPrefer) {
-          if (this.isLightMode) {
-            this.clearMode();
-          } else {
-            this.setLight();
-          }
-        } else {
-          if (this.isDarkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-        }
-      } else {
-        if (this.isSysDarkPrefer) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
-
-      this.notify();
-    } /* flipMode() */
-  } /* ModeToggle */
-
-  const modeToggle = new ModeToggle();
-</script>
 
   
 
@@ -337,21 +193,13 @@
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
-      <button class="mode-toggle btn" aria-label="Switch Mode">
-        <i class="fas fa-adjust"></i>
-      </button>
-
-      
-        <span class="icon-border"></span>
-      
-    
 
     
       
 
       
         <a
-          href="https://github.com/github_username"
+          href="https://github.com/romaricoflores"
           aria-label="github"
           
 
@@ -374,7 +222,7 @@
 
       
         <a
-          href="https://twitter.com/twitter_username"
+          href="https://twitter.com/"
           aria-label="twitter"
           
 
@@ -397,7 +245,7 @@
 
       
         <a
-          href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
+          href="javascript:location.href = 'mailto:' + ['floresromarico','gmail.com'].join('@')"
           aria-label="email"
           
 
@@ -719,6 +567,208 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
       </div>
     </a>
   
+    <a href="/posts/VanCrime/" class="card-wrapper">
+      <div class="card post-preview flex-md-row-reverse">
+        
+
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title my-2 mt-md-0">
+            Vancouver Crime Analysis
+          </h1>
+
+          <div class="card-text post-content mt-0 mb-2">
+            <p>
+              
+
+
+
+
+
+              NOTE: Some interactivity features are disabled in this page, to access full interactive visualizations, access and run the notebook in Kaggle.
+
+Vancouver Crime Analysis
+
+import pandas as pd
+import ...
+            </p>
+          </div>
+
+          <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="me-auto">
+              <!-- posted date -->
+              <i class="far fa-calendar fa-fw me-1"></i>
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class=""
+  data-ts="1689097860"
+  data-df="ll"
+  
+>
+  Jul 11, 2023
+</em>
+
+
+              <!-- categories -->
+              
+                <i class="far fa-folder-open fa-fw me-1"></i>
+                <span class="categories">
+                  
+                    PORTFOLIO,
+                    DATA ANALYSIS
+                </span>
+              
+            </div>
+
+            
+          </div>
+          <!-- .post-meta -->
+        </div>
+        <!-- .card-body -->
+      </div>
+    </a>
+  
+    <a href="/posts/Geocode/" class="card-wrapper">
+      <div class="card post-preview flex-md-row-reverse">
+        
+
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title my-2 mt-md-0">
+            Create Your Own Geocoder App in Google Sheets
+          </h1>
+
+          <div class="card-text post-content mt-0 mb-2">
+            <p>
+              
+
+
+
+
+
+              Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, w...
+            </p>
+          </div>
+
+          <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="me-auto">
+              <!-- posted date -->
+              <i class="far fa-calendar fa-fw me-1"></i>
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class=""
+  data-ts="1689097860"
+  data-df="ll"
+  
+>
+  Jul 11, 2023
+</em>
+
+
+              <!-- categories -->
+              
+                <i class="far fa-folder-open fa-fw me-1"></i>
+                <span class="categories">
+                  
+                    BLOGS,
+                    TUTORIALS
+                </span>
+              
+            </div>
+
+            
+          </div>
+          <!-- .post-meta -->
+        </div>
+        <!-- .card-body -->
+      </div>
+    </a>
+  
+    <a href="/posts/CoffeeBusiness/" class="card-wrapper">
+      <div class="card post-preview flex-md-row-reverse">
+        
+
+        <div class="card-body d-flex flex-column">
+          <h1 class="card-title my-2 mt-md-0">
+            Coffee Business Dashboard Using Tableau
+          </h1>
+
+          <div class="card-text post-content mt-0 mb-2">
+            <p>
+              
+
+
+
+
+
+              Tableau Activity in Data Visualization Class, access data in Tableau Public.
+
+
+       
+    
+
+
+            </p>
+          </div>
+
+          <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="me-auto">
+              <!-- posted date -->
+              <i class="far fa-calendar fa-fw me-1"></i>
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class=""
+  data-ts="1685123460"
+  data-df="ll"
+  
+>
+  May 26, 2023
+</em>
+
+
+              <!-- categories -->
+              
+                <i class="far fa-folder-open fa-fw me-1"></i>
+                <span class="categories">
+                  
+                    PORTFOLIO,
+                    DATA ANALYSIS,
+                    DATA VISUALIZATION,
+                    TABLEAU
+                </span>
+              
+            </div>
+
+            
+          </div>
+          <!-- .post-meta -->
+        </div>
+        <!-- .card-body -->
+      </div>
+    </a>
+  
 </div>
 <!-- #post-list -->
 
@@ -749,6 +799,35 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
 
 
 
+
+  <div id="access-lastmod" class="post">
+    <div class="panel-heading">Recently Updated</div>
+    <ul class="post-content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/CoffeeBusiness/">Coffee Business Dashboard Using Tableau</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/VanCrime/">Vancouver Crime Analysis</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Geocode/">Create Your Own Geocoder App in Google Sheets</a>
+        </li>
+      
+    </ul>
+  </div>
+  <!-- #access-lastmod -->
 
 
       <!-- The trending tags list -->
@@ -782,6 +861,60 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -830,6 +963,31 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -839,6 +997,191 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
   
     
     
@@ -884,16 +1227,31 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
         <a class="post-tag btn btn-outline-primary" href="/tags/gis/">gis</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/data-analysis/">data analysis</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/3d-modeling/">3d modeling</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/arcgis-pro/">arcgis pro</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/crime-analysis/">crime analysis</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboards/">dashboards</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/data-visualization/">data visualization</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/geocoding/">geocoding</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/google-earth-engine/">google earth engine</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/spatial-analytics/">spatial analytics</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/google-sheets/">google sheets</a>
       
     </div>
   </div>
@@ -944,6 +1302,60 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -992,6 +1404,31 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     
     
     
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -1001,6 +1438,191 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
   
     
     
@@ -1046,16 +1668,31 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
         <a class="post-tag btn btn-outline-primary" href="/tags/gis/">gis</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/data-analysis/">data analysis</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/3d-modeling/">3d modeling</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/arcgis-pro/">arcgis pro</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/crime-analysis/">crime analysis</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboards/">dashboards</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/data-visualization/">data visualization</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/geocoding/">geocoding</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/google-earth-engine/">google earth engine</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/spatial-analytics/">spatial analytics</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/google-sheets/">google sheets</a>
       
     </div>
   </div>
