@@ -10,6 +10,3 @@ Tableau Activity in Data Visualization Class.
 
 > Access it in Tableau Public [Tableau Public](https://public.tableau.com/app/profile/roma.rico.flores/viz/RicoFloresCafeProfitDashboard/ProfitDashboard).
 {: .prompt-tip }
-
-![tableau dashboard](/assets/img/sample/Inventory Dashboard.png)
-_Business Dashboard_
