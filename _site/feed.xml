@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-13T07:16:15-07:00</updated>
+  <updated>2023-08-13T10:54:40-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>Mount Douglas 3D Modelling in ArcGIS Pro Global Scene Editor</title>
-    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="Mount Douglas 3D Modelling in ArcGIS Pro Global Scene Editor" />
+    <title>3D Modelling in ArcGIS Pro Global Scene Editor</title>
+    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="3D Modelling in ArcGIS Pro Global Scene Editor" />
     <published>2023-08-11T10:51:00-07:00</published>
   
-    <updated>2023-08-13T07:10:47-07:00</updated>
+    <updated>2023-08-13T07:19:00-07:00</updated>
   
     <id>http://localhost:4000/posts/Pkols/</id>
     <content src="http://localhost:4000/posts/Pkols/" />
@@ -94,6 +94,44 @@ Creating a 3D digital elevation model (DEM) of a real-world location can provide
       Introduction
 
 Google Earth Engine is a powerful platform that combines satellite imagery, geospatial data, and cloud computing to provide users with the ability to analyze and visualize Earth’s changing landscape. Whether you’re an environmental researcher, a conservationist, a developer, or simply someone fascinated by the world around you, having a Google Earth Engine account opens up a world...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Interactive Data Analysis - NY Traffic Collision Data</title>
+    <link href="http://localhost:4000/posts/StreamlitCollision/" rel="alternate" type="text/html" title="Interactive Data Analysis - NY Traffic Collision Data" />
+    <published>2023-07-11T10:51:00-07:00</published>
+  
+    <updated>2023-07-11T10:51:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/StreamlitCollision/</id>
+    <content src="http://localhost:4000/posts/StreamlitCollision/" />
+    <author>
+      <name>Rico Flores</name>
+    </author>
+
+  
+    
+    <category term="BLOGS" />
+    
+    <category term="TUTORIALS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, we’ll add two functions that can call Google Maps service and Yandex Maps Service, and use that service to get the location coordinates. Note that both services are subject to quota.
+
+Open up a new Goo...
     </summary>
   
 
@@ -180,51 +218,6 @@ import...
       Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, we’ll add two functions that can call Google Maps service and Yandex Maps Service, and use that service to get the location coordinates. Note that both services are subject to quota.
 
 Open up a new Goo...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Coffee Business Dashboard Using Tableau</title>
-    <link href="http://localhost:4000/posts/CoffeeBusiness/" rel="alternate" type="text/html" title="Coffee Business Dashboard Using Tableau" />
-    <published>2023-05-26T10:51:00-07:00</published>
-  
-    <updated>2023-08-13T06:59:57-07:00</updated>
-  
-    <id>http://localhost:4000/posts/CoffeeBusiness/</id>
-    <content src="http://localhost:4000/posts/CoffeeBusiness/" />
-    <author>
-      <name>Rico Flores</name>
-    </author>
-
-  
-    
-    <category term="PORTFOLIO" />
-    
-    <category term="DATA ANALYSIS" />
-    
-    <category term="DATA VISUALIZATION" />
-    
-    <category term="TABLEAU" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Tableau Activity in Data Visualization Class.
-
-
-  Access it in Tableau Public Tableau Public.
-
-
     </summary>
   
 
