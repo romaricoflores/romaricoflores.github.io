@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-14T06:54:28-07:00</updated>
+  <updated>2023-08-14T07:18:42-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/StreamlitJobMatch/" rel="alternate" type="text/html" title="JobMatch App Project" />
     <published>2023-08-14T06:00:00-07:00</published>
   
-    <updated>2023-08-14T06:00:00-07:00</updated>
+    <updated>2023-08-14T06:57:51-07:00</updated>
   
     <id>http://localhost:4000/posts/StreamlitJobMatch/</id>
     <content src="http://localhost:4000/posts/StreamlitJobMatch/" />
@@ -48,11 +48,7 @@
 
 
 
-      
-
-This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let us calculate the match score for you. the power of Streamlit and Spacy to analyze your resume against any job posting. The algorithm computes the match score based on natural language processing.
-
-The process begins as Streamlit captures your resume and the jo...
+      This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let the app calculate the match score. The project uses Spacy which is a powerful and efficient open-source library for working with text and performing tasks like understanding the meaning of words, identifying named entities (like names of people or places), and a...
     </summary>
   
 
@@ -60,8 +56,8 @@ The process begins as Streamlit captures your resume and the jo...
 
   
   <entry>
-    <title>3D Modelling in ArcGIS Pro Global Scene Editor</title>
-    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="3D Modelling in ArcGIS Pro Global Scene Editor" />
+    <title>3D Digital Elevation Modelling in ArcGIS Pro Global Scene Editor</title>
+    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="3D Digital Elevation Modelling in ArcGIS Pro Global Scene Editor" />
     <published>2023-08-11T10:51:00-07:00</published>
   
     <updated>2023-08-13T07:19:00-07:00</updated>
@@ -117,7 +113,7 @@ Creating a 3D digital elevation model (DEM) of a real-world location can provide
 
   
     
-    <category term="BLOGS" />
+    <category term="PORTFOLIO" />
     
     <category term="TUTORIALS" />
     
@@ -141,8 +137,8 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
 
   
   <entry>
-    <title>Interactive Data Analysis - NY Traffic Collision Data</title>
-    <link href="http://localhost:4000/posts/StreamlitCollision/" rel="alternate" type="text/html" title="Interactive Data Analysis - NY Traffic Collision Data" />
+    <title>NYC Traffic Collision Interactive Data Analysis</title>
+    <link href="http://localhost:4000/posts/StreamlitCollision/" rel="alternate" type="text/html" title="NYC Traffic Collision Interactive Data Analysis" />
     <published>2023-07-11T10:51:00-07:00</published>
   
     <updated>2023-07-11T10:51:00-07:00</updated>
@@ -155,7 +151,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
 
   
     
-    <category term="BLOGS" />
+    <category term="PORTFOLIO" />
     
     <category term="TUTORIALS" />
     
@@ -169,9 +165,8 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
 
 
 
-      Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, we’ll add two functions that can call Google Maps service and Yandex Maps Service, and use that service to get the location coordinates. Note that both services are subject to quota.
+      
 
-Open up a new Goo...
     </summary>
   
 

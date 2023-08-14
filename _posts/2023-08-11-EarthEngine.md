@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Earth Engine
 date: 2023-08-11 10:51
-categories: [BLOGS, TUTORIALS]
+categories: [PORTFOLIO, TUTORIALS]
 tags: [google earth engine, spatial analytics, gis]     # should always be lowercase
 ---
 

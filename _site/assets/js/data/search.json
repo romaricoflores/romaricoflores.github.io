@@ -13,12 +13,12 @@
 
 
     
-    "snippet": "This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let us calculate the match score for you. the power of Streamlit a...",
-    "content": "This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let us calculate the match score for you. the power of Streamlit and Spacy to analyze your resume against any job posting. The algorithm computes the match score based on natural language processing.The process begins as Streamlit captures your resume and the job posting. Utilizing Spacy, we tokenize and preprocess the textual content, creating linguistic representations. These representations are then evaluated for semantic similarity, yielding a match score that quantifies alignment.The match score, ranging from 0 to 1, is a testament to the convergence of your skills and the job requirements. With a mastery threshold set at 0.9, the interpretation engine deciphers the score. You could be in for a ‘Strong Match,’ ‘Moderate Match,’ ‘Weak Match,’ or ‘Low Match.’ based on the skills and experience required for the position.Streamlit Link"
+    "snippet": "This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let the app calculate the match score. The project uses Spacy whic...",
+    "content": "This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let the app calculate the match score. The project uses Spacy which is a powerful and efficient open-source library for working with text and performing tasks like understanding the meaning of words, identifying named entities (like names of people or places), and analyzing sentence structure.The process begins as Streamlit captures your resume and the job posting. Utilizing Spacy, it tokenizes and preprocess the textual content, creating linguistic representations. These representations are then evaluated for semantic similarity, yielding a match score that quantifies alignment.The match score, ranging from 0 to 100%, shows the convergence of your skills and the job requirements. The results are also interpreted as a ‘Strong Match,’ ‘Moderate Match,’ ‘Weak Match,’ or ‘Low Match.’ based on the skills and experience required for the position."
   },
   
   {
-    "title": "3D Modelling in ArcGIS Pro Global Scene Editor",
+    "title": "3D Digital Elevation Modelling in ArcGIS Pro Global Scene Editor",
     "url": "/posts/Pkols/",
     "categories": "PORTFOLIO, GIS",
     "tags": "arcgis pro, 3d modeling, gis",
@@ -37,7 +37,7 @@
   {
     "title": "Getting Started with Earth Engine",
     "url": "/posts/EarthEngine/",
-    "categories": "BLOGS, TUTORIALS",
+    "categories": "PORTFOLIO, TUTORIALS",
     "tags": "google earth engine, spatial analytics, gis",
     "date": "2023-08-11 10:51:00 -0700",
     
@@ -52,9 +52,9 @@
   },
   
   {
-    "title": "Interactive Data Analysis - NY Traffic Collision Data",
+    "title": "NYC Traffic Collision Interactive Data Analysis",
     "url": "/posts/StreamlitCollision/",
-    "categories": "BLOGS, TUTORIALS",
+    "categories": "PORTFOLIO, TUTORIALS",
     "tags": "streamlit, plotly, interactive",
     "date": "2023-07-11 10:51:00 -0700",
     
@@ -64,8 +64,8 @@
 
 
     
-    "snippet": "Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, w...",
-    "content": "Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, we’ll add two functions that can call Google Maps service and Yandex Maps Service, and use that service to get the location coordinates. Note that both services are subject to quota.Open up a new Google Spreadsheet and go to the script editor, under the Tools menu and paste in the Apps Script code below:"
+    "snippet": "",
+    "content": ""
   },
   
   {
@@ -88,7 +88,7 @@
   {
     "title": "Create Your Own Geocoder App in Google Sheets",
     "url": "/posts/Geocode/",
-    "categories": "BLOGS, TUTORIALS",
+    "categories": "PORTFOLIO, TUTORIALS",
     "tags": "gis, geocoding, google sheets",
     "date": "2023-07-11 10:51:00 -0700",
     
@@ -115,8 +115,8 @@
 
 
     
-    "snippet": "Tableau Activity in Data Visualization Class.  Access it in Tableau Public Tableau Public.",
-    "content": "Tableau Activity in Data Visualization Class.  Access it in Tableau Public Tableau Public."
+    "snippet": "  Access Data and Dashbaord in Tableau Public Tableau Public.                                                                          ",
+    "content": "  Access Data and Dashbaord in Tableau Public Tableau Public.                                                                          "
   }
   
 ]
