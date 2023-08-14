@@ -15,4 +15,4 @@ The match score, ranging from 0 to 1, is a testament to the convergence of your 
 
 [Streamlit Link](https://jobmatch.streamlit.app)
 
-<iframe src="https://jobmatch.streamlit.app" width="100%" height="600" style="border: none;"></iframe>
+<iframe src="https://jobmatch.streamlit.app?embedded=true" width="100%" height="600" style="border: none;"></iframe>
