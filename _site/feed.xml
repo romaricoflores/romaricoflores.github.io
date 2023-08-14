@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-13T10:54:40-07:00</updated>
+  <updated>2023-08-14T06:54:28-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>JobMatch App Project</title>
+    <link href="http://localhost:4000/posts/StreamlitJobMatch/" rel="alternate" type="text/html" title="JobMatch App Project" />
+    <published>2023-08-14T06:00:00-07:00</published>
+  
+    <updated>2023-08-14T06:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/StreamlitJobMatch/</id>
+    <content src="http://localhost:4000/posts/StreamlitJobMatch/" />
+    <author>
+      <name>Rico Flores</name>
+    </author>
+
+  
+    
+    <category term="PORTFOLIO" />
+    
+    <category term="MACHINE LEARNING" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+This project is a tool to assess how well your resume matches a job posting. Simply input your resume and the job description, and let us calculate the match score for you. the power of Streamlit and Spacy to analyze your resume against any job posting. The algorithm computes the match score based on natural language processing.
+
+The process begins as Streamlit captures your resume and the jo...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -180,44 +220,6 @@ import seaborn as sns
 import ipywidgets as widgets
 from IPython.display import display
 import...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Create Your Own Geocoder App in Google Sheets</title>
-    <link href="http://localhost:4000/posts/Geocode/" rel="alternate" type="text/html" title="Create Your Own Geocoder App in Google Sheets" />
-    <published>2023-07-11T10:51:00-07:00</published>
-  
-    <updated>2023-08-12T10:01:37-07:00</updated>
-  
-    <id>http://localhost:4000/posts/Geocode/</id>
-    <content src="http://localhost:4000/posts/Geocode/" />
-    <author>
-      <name>Rico Flores</name>
-    </author>
-
-  
-    
-    <category term="BLOGS" />
-    
-    <category term="TUTORIALS" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Google Apps Script is a powerful way of adding additional functionality to Google Sheets, enabling you to add custom menus and functions, as well as integrations with other Google services. Here, we’ll add two functions that can call Google Maps service and Yandex Maps Service, and use that service to get the location coordinates. Note that both services are subject to quota.
-
-Open up a new Goo...
     </summary>
   
 
