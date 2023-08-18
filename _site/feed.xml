@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-14T07:18:42-07:00</updated>
+  <updated>2023-08-17T17:01:39-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,53 @@
 
   
   <entry>
+    <title>Taxi Geospatial Data Analysis</title>
+    <link href="http://localhost:4000/posts/GeospatialAnalysis/" rel="alternate" type="text/html" title="Taxi Geospatial Data Analysis" />
+    <published>2023-08-17T04:00:00-07:00</published>
+  
+    <updated>2023-08-17T04:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/GeospatialAnalysis/</id>
+    <content src="http://localhost:4000/posts/GeospatialAnalysis/" />
+    <author>
+      <name>Rico Flores</name>
+    </author>
+
+  
+    
+    <category term="PORTFOLIO" />
+    
+    <category term="DATA ANALYSIS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Overview
+This project delves into geospatial data analysis using a dataset containing information about taxis operating in Proto, Portugal. The aim is to provide a hands-on experience in processing and interpreting geospatial data, employing essential visualization techniques, with a focus on using the Folium module in Python.
+
+Objectives
+
+
+  Data Understanding and Cleaning: Learn how to prepar...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>JobMatch App Project</title>
     <link href="http://localhost:4000/posts/StreamlitJobMatch/" rel="alternate" type="text/html" title="JobMatch App Project" />
     <published>2023-08-14T06:00:00-07:00</published>
   
-    <updated>2023-08-14T06:57:51-07:00</updated>
+    <updated>2023-08-14T07:19:45-07:00</updated>
   
     <id>http://localhost:4000/posts/StreamlitJobMatch/</id>
     <content src="http://localhost:4000/posts/StreamlitJobMatch/" />
@@ -56,11 +98,11 @@
 
   
   <entry>
-    <title>3D Digital Elevation Modelling in ArcGIS Pro Global Scene Editor</title>
-    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="3D Digital Elevation Modelling in ArcGIS Pro Global Scene Editor" />
+    <title>Digital Elevation 3D Modelling in ArcGIS Pro Global Scene Editor</title>
+    <link href="http://localhost:4000/posts/Pkols/" rel="alternate" type="text/html" title="Digital Elevation 3D Modelling in ArcGIS Pro Global Scene Editor" />
     <published>2023-08-11T10:51:00-07:00</published>
   
-    <updated>2023-08-13T07:19:00-07:00</updated>
+    <updated>2023-08-14T07:19:45-07:00</updated>
   
     <id>http://localhost:4000/posts/Pkols/</id>
     <content src="http://localhost:4000/posts/Pkols/" />
@@ -103,7 +145,7 @@ Creating a 3D digital elevation model (DEM) of a real-world location can provide
     <link href="http://localhost:4000/posts/EarthEngine/" rel="alternate" type="text/html" title="Getting Started with Earth Engine" />
     <published>2023-08-11T10:51:00-07:00</published>
   
-    <updated>2023-08-11T10:51:00-07:00</updated>
+    <updated>2023-08-14T07:19:45-07:00</updated>
   
     <id>http://localhost:4000/posts/EarthEngine/</id>
     <content src="http://localhost:4000/posts/EarthEngine/" />
@@ -141,7 +183,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     <link href="http://localhost:4000/posts/StreamlitCollision/" rel="alternate" type="text/html" title="NYC Traffic Collision Interactive Data Analysis" />
     <published>2023-07-11T10:51:00-07:00</published>
   
-    <updated>2023-07-11T10:51:00-07:00</updated>
+    <updated>2023-08-14T07:19:45-07:00</updated>
   
     <id>http://localhost:4000/posts/StreamlitCollision/</id>
     <content src="http://localhost:4000/posts/StreamlitCollision/" />
@@ -167,54 +209,6 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
 
       
 
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Vancouver Crime Analysis</title>
-    <link href="http://localhost:4000/posts/VanCrime/" rel="alternate" type="text/html" title="Vancouver Crime Analysis" />
-    <published>2023-07-11T10:51:00-07:00</published>
-  
-    <updated>2023-08-13T06:44:17-07:00</updated>
-  
-    <id>http://localhost:4000/posts/VanCrime/</id>
-    <content src="http://localhost:4000/posts/VanCrime/" />
-    <author>
-      <name>Rico Flores</name>
-    </author>
-
-  
-    
-    <category term="PORTFOLIO" />
-    
-    <category term="DATA ANALYSIS" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      NOTE: Some interactivity features are disabled in this page, to access full interactive visualizations, access and run the notebook in Kaggle.
-
-Vancouver Crime Analysis
-
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import plotly.subplots as sp
-import plotly.graph_objects as go
-import seaborn as sns
-import ipywidgets as widgets
-from IPython.display import display
-import...
     </summary>
   
 
