@@ -1,5 +1,5 @@
 ---
-title: Coffee Business Dashboard Using Tableau
+title: Tableau Dashboard: Coffee Business
 date: 2023-05-26 10:51
 categories: [PORTFOLIO, DATA ANALYSIS, DATA VISUALIZATION, TABLEAU]
 tags: [data analysis, tableau, dashboards, data visualization]   

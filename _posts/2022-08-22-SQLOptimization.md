@@ -1,7 +1,7 @@
 ---
 title: Optimizing your SQL Scripts
 date: 2022-08-22 04:00
-categories: [BLOG, TUTORIALS]
+categories: [BLOGS]
 tags: [sql, data analysis]
 ---
 
