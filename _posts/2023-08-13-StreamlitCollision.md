@@ -1,7 +1,7 @@
 ---
 title: NYC Traffic Collision Interactive Data Analysis 
 date: 2023-07-11 10:51
-categories: [PORTFOLIO, TUTORIALS]
+categories: [PORTFOLIO, DATA ANALYSIS]
 tags: [streamlit, plotly, interactive]     # should always be lowercase
 ---
 
