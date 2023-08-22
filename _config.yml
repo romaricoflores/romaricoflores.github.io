@@ -20,7 +20,7 @@ timezone: America/Vancouver
 
 title: Rico Flores # the main title
 
-tagline: GIS | Machine Learning # it will display as the sub-title
+tagline: Projects Portfolio # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   GIS, Machine Learning, Spatial Data Science.
