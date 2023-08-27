@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rico Flores</title>
   <subtitle>GIS, Machine Learning, Spatial Data Science.</subtitle>
-  <updated>2023-08-17T17:27:31-07:00</updated>
+  <updated>2023-08-27T15:04:52-07:00</updated>
   <author>
     <name>Rico Flores</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/GeospatialAnalysis/" rel="alternate" type="text/html" title="Taxi Geospatial Data Analysis" />
     <published>2023-08-17T04:00:00-07:00</published>
   
-    <updated>2023-08-17T04:00:00-07:00</updated>
+    <updated>2023-08-17T17:32:34-07:00</updated>
   
     <id>http://localhost:4000/posts/GeospatialAnalysis/</id>
     <content src="http://localhost:4000/posts/GeospatialAnalysis/" />
@@ -183,7 +183,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     <link href="http://localhost:4000/posts/StreamlitCollision/" rel="alternate" type="text/html" title="NYC Traffic Collision Interactive Data Analysis" />
     <published>2023-07-11T10:51:00-07:00</published>
   
-    <updated>2023-08-14T07:19:45-07:00</updated>
+    <updated>2023-08-22T12:04:05-07:00</updated>
   
     <id>http://localhost:4000/posts/StreamlitCollision/</id>
     <content src="http://localhost:4000/posts/StreamlitCollision/" />
@@ -195,7 +195,7 @@ Google Earth Engine is a powerful platform that combines satellite imagery, geos
     
     <category term="PORTFOLIO" />
     
-    <category term="TUTORIALS" />
+    <category term="DATA ANALYSIS" />
     
   
 
